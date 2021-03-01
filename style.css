@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Thirsty';
+    src: url('/thirsty_script/ThirstyScriptExtraBoldDemo.otf');
+}
+
+body h1 {
+    text-align: center;
+    font-family: 'Thirsty';
+    font-size: 50px;
+    color: #f5b53d;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body h2 {
+    float: left;
+    padding-left: 30px;
+    margin-top: 0;
+    font-family: monospace;
+    font-size: 30px;
+    color: black;
+}
+/* 
+#map-image {
+    text-align: center;
+    position: relative;
+    border: 10px solid #797878;
+    background-color: rgb(180, 179, 179);
+    height: 700px;
+    margin: 0 auto;
+    z-index: -2;
+} */
+
+.show-name {
+    border: 3px solid black;
+    width: 200px;
+    height: 70px;
+    position: fixed;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.show-score {
+    border: 3px solid black;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    left: 747px;
+    top: -23px;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: white;
+    
+}
+.show-name p {
+    font-family: sans-serif;
+    font-size: 60%;
+    color: white;
+    background-color: red;
+    margin-top: 0px;
+    text-align: center;
+}
+
+#output-score {
+    text-align: right;
+}
+
+.show-score p {
+    font-family: sans-serif;
+    font-size: 60%;
+    color: white;
+    background-color: black;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.container svg {
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    background-color: rgb(180, 179, 179);
+    border: 10px solid #797878;
+    width: 85%;
+    height: 80%;
+    position: absolute;
+    left: 40px;
+    z-index: -1;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.game-intro {
+    display: block;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    border: 4px solid black;
+    position: fixed;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 350px;
+    top: 300px;
+}
+
+.game-intro h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+}
+
+.game-intro p {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.content-div input {
+    font-size: 10px;
+    color: red;
+}
+
+.content-div {
+    font-family: sans-serif;
+    padding-top: 20px;
+    font-size: 20px;
+    display: none;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    border: 4px solid black;
+    position: fixed;
+    left: 350px;
+    top: 300px;
+}
+
+#check-answer {
+    background-color: #020c66; 
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 15px 25px;
+}
+
+#AR {
+    fill: #303030;
+    stroke: #303030;
+}
+
+#AR:hover {
+    fill: purple;
+    stroke: purple;
+}
+
+#AU {
+    fill: #303030;
+    stroke: #303030;
+    
+}
+#AU:hover {
+    fill: brown;
+    stroke:brown;
+}
+
+#CL {
+    fill: #303030;
+    stroke: #303030;
+    
+}
+#CL:hover {
+    fill: orange;
+    stroke: orange;
+}
+
+#FR {
+    fill: #303030;
+    stroke: #303030;
+}
+#FR:hover {
+    fill: gold;
+    stroke: gold;
+}
+
+#DE {
+    fill: #303030;
+    stroke: #303030;
+}
+#DE:hover {
+    fill:paleturquoise;
+    stroke: paleturquoise;
+}
+
+#IT {
+    fill:#303030;
+    stroke: #303030;
+}
+#IT:hover {
+    fill: red;
+    stroke: red;
+}
+
+#NZ {
+    fill:#303030;
+    stroke: #303030;
+}
+#NZ:hover {
+    fill: green;
+    stroke: green;
+}
+
+#PT {
+    fill: #303030;
+    stroke: #303030;
+}
+#PT:hover {
+    fill:darkred;
+    stroke: darkred;
+}
+
+#ZA {
+    fill: #303030;
+    stroke: #303030;
+}
+#ZA:hover {
+    fill:fuchsia;
+    stroke: fuchsia;
+}
+
+#ES {
+    fill: #303030;
+    stroke: #303030;
+}
+#ES:hover {
+    fill:darkolivegreen;
+    stroke: darkolivegreen;
+}
+
+#US {
+    fill:#303030;
+    stroke: #303030;
+}
+#US:hover {
+    fill: #1e6fe8;
+    stroke: #1e6fe8;
+}
+
