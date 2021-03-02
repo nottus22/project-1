@@ -31,13 +31,7 @@ let country;
              event.target.id === 'NZ' || 
              event.target.id === 'US' || 
              event.target.id === 'ZA') {
-            // document.getElementById('content-div').style.display = "block";
             country = event.target.id;
-            // if (!userName.value) {
-            //     alert('Please enter your name to continue!');
-            // } else {
-            // document.getElementById('content-div').style.display = "block";
-            // }
             startGame();
         } else {
             alert('Please select a valid wine region');
@@ -111,7 +105,7 @@ const ZA = [
     { question: 'What is another name for Chenin Blanc?', answers: ['Skeen', 'Steen', 'Stein', 'Sveil'] }
 ]
 
-// US Answers
+// Answers
 const correctArAnswers = ['Malbec', 'Mendoza', 'High Altitude', 'Andes Mountains']
 const correctAuAnswers = ['Shiraz', 'Grenache, Shiraz, Mourvedre', 'Grange', 'A type of red soil in Coonawarra']
 const correctClAnswers = ['Cabernet Sauvignon', 'Carménère', 'Pacific']
