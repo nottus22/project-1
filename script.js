@@ -5,6 +5,10 @@
 //     this.country;
 //    } 
 
+function restart() {
+    location.reload();
+    return false;
+}
 
 // Begin Button, Populate Name & Hide Div
 let userName = document.getElementById('user-name');
@@ -190,6 +194,7 @@ function checkAnswer() {
    
     checkAnswer.onclick = () => {
         tracker--;
+        
         if (document.getElementById('answer0').checked) {
             answerValue = document.getElementById('answer0').value;
             if (answerValue === correctUsAnswers[randomQuestionIndex] || answerValue === correctArAnswers[randomQuestionIndex] ||
@@ -199,11 +204,11 @@ function checkAnswer() {
                 answerValue === correctPtAnswers[randomQuestionIndex] || answerValue === correctNzAnswers[randomQuestionIndex] ||
                 answerValue === correctZaAnswers[randomQuestionIndex]) {
                 showCorrect();
-                result += 1
+                result += 1;
                 score.textContent = result;
             } else {        
                 showIncorrect();
-                result += -1
+                result += -1;
             }
         } else if (document.getElementById('answer1').checked) {
             answerValue = document.getElementById('answer1').value;
@@ -214,11 +219,11 @@ function checkAnswer() {
                 answerValue === correctPtAnswers[randomQuestionIndex] || answerValue === correctNzAnswers[randomQuestionIndex] ||
                 answerValue === correctZaAnswers[randomQuestionIndex]) {
                 showCorrect();
-                result += 1
+                result += 1;
                 score.textContent = result;
             } else {
                 showIncorrect();
-                result += -1
+                result += -1;
             }
         } else if (document.getElementById('answer2').checked) {
             answerValue = document.getElementById('answer2').value;
@@ -229,11 +234,11 @@ function checkAnswer() {
                 answerValue === correctPtAnswers[randomQuestionIndex] || answerValue === correctNzAnswers[randomQuestionIndex] ||
                 answerValue === correctZaAnswers[randomQuestionIndex]) {
                 showCorrect();
-                result += 1
+                result += 1;
                 score.textContent = result;
             } else {
                 showIncorrect();
-                result += -1
+                result += -1;
             } 
         } else if (document.getElementById('answer3').checked) {
             answerValue = document.getElementById('answer3').value;
@@ -244,11 +249,11 @@ function checkAnswer() {
                 answerValue === correctPtAnswers[randomQuestionIndex] || answerValue === correctNzAnswers[randomQuestionIndex] ||
                 answerValue === correctZaAnswers[randomQuestionIndex]) {
                 showCorrect();
-                result += 1
+                result += 1;
                 score.textContent = result;
             } else {
                 showIncorrect();
-                result += -1
+                result += -1;
             }       
     }
     if (tracker > 0) {

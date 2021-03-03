@@ -3,6 +3,11 @@
     src: url('/Alpha-Echo/alpha_echo.ttf');
 }
 
+#restart {
+    background-color: white;
+    color: grey;
+}
+
 .top-container {
     background-color: #f5b53d;
     border: 5px solid #c58d24;
@@ -39,7 +44,7 @@ body h3 {
     background-color: white;
     border: 3px solid black;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 15px;
     position: fixed;
     height: 70px;
     width: 200px;
@@ -49,7 +54,7 @@ body h3 {
     background-color: white;
     border: 3px solid black;
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 15px;
     position: fixed;
     left: 891px;
     top: 106px;
