@@ -1,10 +1,3 @@
-// class Game {
-//    constructor() {
-//     this.result = 0;
-//     this.userName;
-//     this.country;
-//    } 
-
 function restart() {
     location.reload();
     return false;
