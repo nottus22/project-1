@@ -187,7 +187,6 @@ function checkAnswer() {
    
     checkAnswer.onclick = () => {
         tracker--;
-        
         if (document.getElementById('answer0').checked) {
             answerValue = document.getElementById('answer0').value;
             if (answerValue === correctUsAnswers[randomQuestionIndex] || answerValue === correctArAnswers[randomQuestionIndex] ||
@@ -267,7 +266,7 @@ function showCorrect() {
     document.getElementById('result').innerText = 'CORRECT';
     setTimeout(() => {
         document.getElementById('popup-div').style.display = 'none'
-    }, 1000);
+    }, 1200);
 }
 
 function showIncorrect() {
@@ -277,13 +276,13 @@ function showIncorrect() {
     document.getElementById('result').innerText = 'INCORRECT';
     setTimeout(() => {
         document.getElementById('popup-div').style.display = 'none'
-    }, 1000);
+    }, 1200);
 }
         
 function win() {
     if (result > 4) {
         alert('Congratulations! You passed Level 1!');
-    } 
+    }
 }
  win()
 }
